@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+html {
+  width: 100%;
+}
+body {
+  background-color: azure;
+}
+
+nav {
+  background-color: #353838;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.parallax-container {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.322);
+}
+
+.parallax-container::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+.info_text h5 {
+  margin-top: 35px;
+  font-size: 35px;
+  color: rgb(2, 2, 2);
+  z-index: 1;
+  position: relative;
+}
+.info_text p {
+  margin-top: 35px;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+  height: 100px;
+  background-color: black;
+}
+
+.links a {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+}
+
+.links a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.line {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgba(189, 184, 184, 0.733);
+  height: 2px;
+  box-shadow: antiquewhite;
+}
+.a_group {
+  display: flex;
+  flex-direction: row;
+}
+.footer {
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.pulse {
+  margin-top: 15px;
+  color: yellow;
+  background-color: black;
+}
+.a_links {
+  margin-top: 25px;
+}
+
+.a_links p {
+  position: relative;
+  top: -20px;
+}
+.a_links:hover {
+  color: #353838;
+}
+
+.info_div {
+  margin-top: 25px;
+}
+
+.card_a {
+  position: relative;
+  top: 25px;
+}
